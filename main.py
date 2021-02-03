@@ -16,11 +16,17 @@ while run:
         if feeling == "bad" or feeling == "not so good" or feeling == "very bad":
             print("Thats not so good")
     else:
+        #what can you do
         if inp == "what can you do":
             print("Answer your hellos(more functions to come)")
         else:
+            #stop
             if inp == "stop":
                 print("Stop in progress")
                 run = False
             else:
-                NU()
+                if inp == "add":
+                    number1 = input(">>")
+                    number2 = input(">>")
+                    out = add(int(number1), int(number2))
+                    print(str(out))
