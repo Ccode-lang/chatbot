@@ -1,4 +1,5 @@
 from api import NU
+from api import add
 #make loop
 run = True
 
@@ -30,3 +31,5 @@ while run:
                     number2 = input(">>")
                     out = add(int(number1), int(number2))
                     print(str(out))
+                else:
+                    NU()
