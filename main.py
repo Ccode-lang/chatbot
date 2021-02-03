@@ -32,4 +32,7 @@ while run:
                     out = add(int(number1), int(number2))
                     print(str(out))
                 else:
-                    NU()
+                    if inp == "thanks":
+                        print("Your welcome")
+                    else:
+                        NU()
