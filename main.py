@@ -1,4 +1,3 @@
-#!/bin/env python
 from api import NU
 #make loop
 run = True
@@ -7,9 +6,9 @@ run = True
 while run:
     #get input
     inp = input(">>")
-    
+
     #check to see if inp is the same as a string
-    if inp == "hello":
+    if inp == "hello" or inp == "hi":
         print("Hi, how are you today?")
         feeling = input(">>")
         if feeling == "good" or feeling == "fine":
