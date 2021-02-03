@@ -16,5 +16,5 @@ Run file is main.py
 
 2. Put your input after that.
 
-3. Press enter. You will see an input!
+3. Press enter. You will see an output!
 
