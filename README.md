@@ -18,3 +18,5 @@ Run file is main.py
 
 3. Press enter. You will see an output!
 
+# releases
+beta 1.0.1 final (please check out and try it out)
