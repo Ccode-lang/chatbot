@@ -1,5 +1,6 @@
 from api import NU
 from api import add
+from api import ver
 #make loop
 run = True
 
@@ -19,7 +20,7 @@ while run:
     else:
         #what can you do
         if inp == "what can you do":
-            print("Answer your hellos(more functions to come)")
+            print("Answer your hellos, add, and answer thanks.(more functions to come)")
         else:
             #stop
             if inp == "stop":
@@ -35,4 +36,8 @@ while run:
                     if inp == "thanks":
                         print("Your welcome")
                     else:
-                        NU()
+                        #version
+                        if inp == "version":
+                            ver()
+                        else:
+                            NU()
