@@ -14,24 +14,28 @@ Run file is main.py
 # How to use
 1. download
 
-2. run main.py
+2. check requirements
 
-3. Program will show ">>" in console.
+3. run main.py
 
-4. Put your input after that.
+4. Program will show ">>" in console.
 
-5. Press enter. You will see an output!
+5. Put your input after that.
+
+6. Press enter. You will see an output!
 
 # how to use released versions
 1. download
 
-2. open releases folder
+2. check requirements
 
-3. open folder for release you want to use(older versions are all in releases to)
+3. open releases folder
 
-4. run main.py in that folder
+4. open folder for release you want to use(older versions are all in releases to)
 
-5. continue from step 3 for the normal runs
+5. run main.py in that folder
+
+6. continue from step 4 for the normal runs
 
 # releases
 b 1.0.1f (please check out the first beta release)
