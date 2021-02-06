@@ -4,6 +4,12 @@ from api import ver
 #make loop
 run = True
 
+#make compatable with py2 and 3
+try:
+    _input = raw_input
+except NameError:
+    _input = input
+
 #start loop
 while run:
     #get input
