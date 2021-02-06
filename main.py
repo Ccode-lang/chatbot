@@ -1,6 +1,4 @@
-from api import NU
-from api import add
-from api import ver
+import api
 #make loop
 run = True
 
@@ -13,12 +11,12 @@ except NameError:
 #start loop
 while run:
     #get input
-    inp = input(">>")
+    inp = _input(">>")
 
     #check to see if inp is the same as a string
     if inp == "hello" or inp == "hi":
         print("Hi, how are you today?")
-        feeling = input(">>")
+        feeling = _input(">>")
         if feeling == "good" or feeling == "fine":
             print ("Thats good")
         if feeling == "bad" or feeling == "not so good" or feeling == "very bad":
@@ -34,9 +32,9 @@ while run:
                 run = False
             else:
                 if inp == "add":
-                    number1 = input(">>")
-                    number2 = input(">>")
-                    out = add(int(number1), int(number2))
+                    number1 = _input(">>")
+                    number2 = _input(">>")
+                    out = api.add(int(number1), int(number2))
                     print(str(out))
                 else:
                     if inp == "thanks":
@@ -44,6 +42,6 @@ while run:
                     else:
                         #version
                         if inp == "version":
-                            ver()
+                            api.ver()
                         else:
-                            NU()
+                            api.NU()
