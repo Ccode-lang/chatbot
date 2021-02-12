@@ -32,8 +32,8 @@ while run:
                 run = False
             else:
                 if inp == "add":
-                    number1 = _input(">>")
-                    number2 = _input(">>")
+                    number1 = _input("give first number: ")
+                    number2 = _input("give second number: ")
                     try:
                         out = api.add(int(number1), int(number2))
                     except ValueError:
