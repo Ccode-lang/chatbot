@@ -34,7 +34,10 @@ while run:
                 if inp == "add":
                     number1 = _input(">>")
                     number2 = _input(">>")
-                    out = api.add(int(number1), int(number2))
+                    try:
+                        out = api.add(int(number1), int(number2))
+                    except ValueError:
+                        out = "invalid"
                     print(str(out))
                 else:
                     if inp == "thanks":
