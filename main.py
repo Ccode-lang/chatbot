@@ -24,7 +24,7 @@ while run:
     else:
         #what can you do
         if inp == "what can you do":
-            print("Answer your hellos, add, and answer thanks.(more functions to come)")
+            api.list()
         else:
             #stop
             if inp == "stop":
