@@ -16,6 +16,8 @@ def ver():
 def list():
     print("hi or hello(program will ask how you are, answer and it will give an answer)")
     print("what can you do (shows this)")
-    print("stop(stops program)")
+    print("stop or quit(stops program)")
     print("add(add to numbers)")
     print("thanks(says 'your welcome')")
+    print("how are you today(answers)")
+    print("what are you(says purpose)")
