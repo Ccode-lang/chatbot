@@ -9,7 +9,7 @@ def add(a, b):
 
 
 def ver():
-    print("Python Chatbot (b 1.1 in dev).")
+    print("Python Chatbot (b 1.2 in dev).")
     print("Type 'what can you do' to see what this version can do.")
     print("This is a dev version")
 
