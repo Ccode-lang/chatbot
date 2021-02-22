@@ -27,7 +27,7 @@ while run:
             api.list()
         else:
             #stop
-            if inp == "stop":
+            if inp == "stop" or inp == "quit":
                 print("Stop in progress")
                 run = False
             else:
@@ -40,11 +40,17 @@ while run:
                         out = "invalid"
                     print(str(out))
                 else:
-                    if inp == "thanks":
+                    if inp == "thanks" or inp == "thank you":
                         print("Your welcome")
                     else:
                         #version
                         if inp == "version":
                             api.ver()
                         else:
-                            api.NU()
+                            if inp == "how are you today":
+                                print("good")
+                            else:
+                                if inp == "what are you":
+                                    print("I am a program made to help people")
+                                else:
+                                    api.NU()
