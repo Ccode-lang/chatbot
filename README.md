@@ -28,4 +28,7 @@ Run file is main.py
 
 ## updates
 # linux
-use ./update comand
+1. use ./update comand
+2. answer yes to the remove file prompts
+# Windows
+in dev
