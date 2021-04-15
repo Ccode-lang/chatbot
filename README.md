@@ -30,5 +30,6 @@ Run file is main.py
 # linux
 1. use ./update comand
 2. answer yes to the remove file prompts
+3. run cd ..
 # Windows
 in dev
