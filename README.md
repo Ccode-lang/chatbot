@@ -24,18 +24,8 @@ Run file is main.py
 
 6. Press enter. You will see an output!
 
-# how to use released versions
-1. download
 
-2. check requirements
 
-3. open releases folder
-
-4. open folder for release you want to use(older versions are all in releases to)
-
-5. run main.py in that folder
-
-6. continue from step 4 for the normal runs
-
-# releases
-b 1.0.1f (please check out the first beta release)
+## updates
+# linux
+use ./update comand
