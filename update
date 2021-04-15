@@ -1,0 +1,7 @@
+cd ..
+echo "removing old version"
+rm -r chatbot
+echo "downloading new version"
+git clone https://github.com/Ccode-lang/chatbot.git
+cd chatbot
+echo "update complete"
