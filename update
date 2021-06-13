@@ -1,6 +1,6 @@
 cd ..
 echo "removing old version"
-rm -r chatbot
+rm -rf chatbot
 echo "downloading new version"
 git clone https://github.com/Ccode-lang/chatbot.git
 cd chatbot
