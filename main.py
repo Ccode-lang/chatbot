@@ -1,4 +1,3 @@
-import api
 #make loop
 run = True
 
@@ -24,7 +23,7 @@ while run:
     else:
         #what can you do
         if inp == "what can you do":
-            api.list()
+            list()
         else:
             #stop
             if inp == "stop" or inp == "quit":
@@ -35,7 +34,7 @@ while run:
                     number1 = _input("give first number: ")
                     number2 = _input("give second number: ")
                     try:
-                        out = api.add(int(number1), int(number2))
+                        out = add(int(number1), int(number2))
                     except ValueError:
                         out = "invalid"
                     print(str(out))
@@ -45,7 +44,7 @@ while run:
                     else:
                         #version
                         if inp == "version":
-                            api.ver()
+                            ver()
                         else:
                             if inp == "how are you today":
                                 print("good")
@@ -53,4 +52,4 @@ while run:
                                 if inp == "what are you":
                                     print("I am a program made to help people")
                                 else:
-                                    api.NU()
+                                    NU()
